@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+ 
+		
+	<body>
+		<header>	
+			<!-- botões-fixos -->
+			<button style="background: no-repeat  url(img/seta.png); width:60px; height:60px;"  onclick="topFunction()" id="myBtn" title="Go to top"></button>
+			<a href="https://api.whatsapp.com/send?phone=5511982362259" target="_blank" style="background: no-repeat url(img/whats.png); width:30px;height:60px;"  id="myBtn2" ></a>
+
+
+			<!-- header-logo-login -->
+			<div id="h-header">
+
+			<div class="container-header" id="header">
+				<div class="cabecalho">
+			<div class="submit-line">
+				<input type="text" placeholder="Pesquisar..."class="input-header"/>
+				<button class="submit-lente" type="submit">
+				  <i class="fa fa-search"></i>
+				</button>
+			  </div>
+			  	<div class="img-logo"><img src="img/logo.png" ></div>
+				  
+				<div class="header-usuario"> <img  src="img/login.png"> 
+					<img class="imgs-header" src="img/carrinho.png">
+					<img class="img-header-ellip" src="img/Ellipse 1.png">
+					 <label class="text-99">99</label> </div>
+			</div>
+			</div>
+
+		</div>
+
+		<!-- header-menu  responsivo-->
+		<div id="menuToggle"> 
+			<input type="checkbox" />
+		
+			<span></span>
+			<span></span>
+			<span></span>	  
+			<ul id="menu-responsivo" >
+				
+			  <div><a  href="#">Categoria lorem</a></div>
+			  <div class="dropdown" ><a > Categoria</a>
+				<div >
+				 <div >        <a >Subcategoria lorem</a></div>
+				 <div >        <a >Subcategoria </a></div>
+				 <div >        <a >Subcategoria lorem </a></div>
+				 <div >        <a >Subcategoria lorem</a></div>
+				 <div >        <a >Subcategoria</a></div>
+				
+			   </div>
+			   <div >
+				<div >        <a >Subcategoria lorem</a></div>
+				<div >        <a >Subcategoria </a></div>
+				<div >        <a >Subcategoria lorem </a></div>
+				<div >        <a >Subcategoria lorem</a></div>
+				<div >        <a >Subcategoria</a></div>
+			   
+			  </div>
+			 </div>
+			  <div><a  href="#">Categoria lorem ipsum</a></div>
+			</ul>
+
+			</div>
+			
+			<!-- Menu-fixo -->
+
+		<div id="m-menu">
+
+		<nav class="menu">
+
+			<ul class="ul-principal">
+				<li class="li-principal" id="li-1"  ><a  href="#">Categoria lorem</a></li>
+				<li  class="li-principal" id="li-2"  ><a  href="#">Categoria</a>
+					<ul>
+						<li><a class="subMenu-li-a" href="#">Subcategoria lorem</a></li>
+						<li><a class="subMenu-li-a" href="#">Subcategoria</a></li>
+						<li><a class="subMenu-li-a"href="#">Subcategoria lorem ipsum</a>
+							<ul>
+								<li><a class="subMenu-li-a" href="#">Subcategoria lorem</a></li>
+								<li><a class="subMenu-li-a"href="#">Subcategoria</a></li>
+								<li><a class="subMenu-li-a"href="#">Subcategoria lorem ipsum</a></li>
+								<li><a class="subMenu-li-a"href="#">Subcategoria lorem</a></li>
+								<li><a class="subMenu-li-a"href="#">Subcategoria</a></li>
+							</ul>
+						</li>
+						<li><a class="subMenu-li-a" href="#">Subcategoria lorem</a></li>		
+						<li><a class="subMenu-li-a" href="#">Subcategoria </a></li>
+					</ul>
+				</li>
+				<li  class="li-principal" id="li-3"><a href="#">Categoria lorem ipsum</a></li>
+				<li  class="li-principal" id="li-4"><a  href="#">Categoria lorem</a></li>
+				<li  class="li-principal"id="li-5"><a href="#">Categoria </a></li>
+				<li  class="li-principal"id="li-6"><a href="#">Categoria lorem ipsum</a></li>
+				<li  class="li-principal"id="li-7"><a href="#">Categoria ipsum</a></li>
+				<li id="li-hamburguer">
+					<label for="menu-hamburguerr">
+						<div class="mburgr">
+						  <span class="hamburguerr"></span>
+						</div>
+					  </label>
+					</li>
+				
+							</ul>
+						
+		</nav>
+		
+	</div>
+
+	</header>
+
+	
+
+	<div id="main">
+		<!-- carousel -->
+		<div class="slideshow-container">
+			<div class="mySlides fade">
+			  <img id="img-carousel"src="img/banner full.png" >
+			</div>
+	
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+			
+			</div>
+			
+		<!-- banner-produtos (fundo laranja) -->
+
+		<div class="produtos">
+		<div><img style="  max-width:295px; height: 80px;" src="img/01.png"></div>
+		<div><img style="padding-left: 15px;max-width:295px; height: 80px;"src="img/02.png"></div>
+		<div><img style="padding-left: 15px; max-width:295px; height: 80px;"src="img/03.png"></div>
+		</div>
+		
+		<!-- grid-vendas -->
+
+		<div class="container-main">
+		<div class="vendas">
+
+		<div class="novidades"><h3>NOVIDADES</h3></div>
+
+		<main>
+			<div class="card-img">
+				<div class="background">
+					<button style="display: none">Compra Rápida</button>
+				  <img class="img"src="img/Layer 26.png"></div>
+				<p>Lorem ipsum dolor summit</p>
+				<p class="preco">R$ 99,99</p>
+			
+			  </div>
+			  <div class="card-img">
+				<div class="background">
+					<div class="btn-img">50% OFF</div>
+
+					<button style="display: none">Compra Rápida</button>
+				<img class="img"src="img/Layer 25.png"></div>
+			  <p>Lorem ipsum dolor summit</p>
+			  <p class="preco">R$ 99,99</p>
+			  <p class="parcela">99x de R$99,99</p>
+
+			</div>
+			<div class="card-img">
+				<div class="background">
+
+				<button style="display: none">Compra Rápida</button>
+				<img class="img"src="img/Layer 23.png"></div>
+			  <p>Lorem ipsum dolor summit</p>
+			  <div style="display:flex;margin-top:3%; ">
+				<p class="preco2">R$99,99</p>
+			  <p class="preco">R$ 99,99</p>
+			</div>
+			</div>
+			<div class="card-img">
+				<div class="background">
+					<div class="btn-img">NOVO</div>
+
+					<button style="display: none">Compra Rápida</button>
+				<img class="img"src="img/Layer 24.png"></div>
+			  <p>Lorem ipsum dolor summit</p>
+			  <div style="display:flex;margin-top:3%; ">
+				<p class="preco2">R$99,99</p>
+			  <p class="preco">R$ 99,99</p>
+			</div>
+			<p class="parcela">99x de R$99,99</p>
+
+			</div>
+		</main>
+
+		</div>
+		<br>
+		
+		<!-- banners cachorro e gato -->
+
+
+		<div class="banners">
+			<div><img style=" padding: 5px; max-width: 450px; height: 200px; margin-right:5%;" 
+				src="img/011.png"></div>
+			<div><img style="padding: 5px;max-width:450px; height: 200px;"src="img/02 (1).png"></div>
+	
+			</div>
+			<br>
+			<br><br>
+
+					<!-- grid-vendas -->
+
+			<div class="vendas"  >
+				<div class="novidades"><h3>DESTAQUES</h3></div>
+				<main>
+					<div class="card-img">
+		
+						<div class="background">
+							<button style="display: none">Compra Rápida</button>
+						  <img 
+						  class="img"src="img/Layer 26.png"></div>
+						<p>Lorem ipsum dolor summit</p>
+						<p class="preco">R$ 99,99</p>
+					
+					  </div>
+					  <div class="card-img">
+						<div class="background">
+							<div class="btn-img">50% OFF</div>
+		
+							<button style="display: none">Compra Rápida</button>
+						<img class="img"src="img/Layer 25.png"></div>
+					  <p>Lorem ipsum dolor summit</p>
+					  <p class="preco">R$ 99,99</p>
+					  <p class="parcela">99x de R$99,99</p>
+		
+					</div>
+					<div class="card-img">
+						<div class="background">
+		
+						<button style="display: none">Compra Rápida</button>
+						<img class="img"src="img/Layer 23.png"></div>
+					  <p>Lorem ipsum dolor summit</p>
+					  <div style="display:flex;margin-top:3%; ">
+						<p class="preco2">R$99,99</p>
+					  <p class="preco">R$ 99,99</p>
+					</div>
+					</div>
+					<div class="card-img">
+						<div class="background">
+							<div class="btn-img">NOVO</div>
+		
+							<button style="display: none">Compra Rápida</button>
+						<img class="img"src="img/Layer 24.png"></div>
+					  <p>Lorem ipsum dolor summit</p>
+					  <div style="display:flex;margin-top:3%; ">
+						<p class="preco2">R$99,99</p>
+					  <p class="preco">R$ 99,99</p>
+					</div>
+					<p class="parcela">99x de R$99,99</p>
+		
+					</div>
+				</main>
+				<main>
+					<div class="card-img">
+		
+						<div class="background">
+							<button style="display: none">Compra Rápida</button>
+						  <img 
+						  class="img"src="img/Layer 26.png"></div>
+						<p>Lorem ipsum dolor summit</p>
+						<p class="preco">R$ 99,99</p>
+					
+					  </div>
+					  <div class="card-img">
+						<div class="background">
+		
+							<button style="display: none">Compra Rápida</button>
+						<img class="img"src="img/Layer 25.png"></div>
+					  <p>Lorem ipsum dolor summit</p>
+					  <p class="preco">R$ 99,99</p>
+					  <p class="parcela">99x de R$99,99</p>
+		
+					</div>
+					<div class="card-img">
+						<div class="background">
+		
+						<button style="display: none">Compra Rápida</button>
+						<img class="img"src="img/Layer 23.png"></div>
+					  <p>Lorem ipsum dolor summit</p>
+					  <div style="display:flex;margin-top:3%; ">
+						<p class="preco2">R$99,99</p>
+					  <p class="preco">R$ 99,99</p>
+					</div>
+					</div>
+					<div class="card-img">
+						<div class="background">
+							<button style="display: none">Compra Rápida</button>
+						<img class="img"src="img/Layer 24.png"></div>
+					  <p>Lorem ipsum dolor summit</p>
+					  <div style="display:flex;margin-top:3%; ">
+						<p class="preco2">R$99,99</p>
+					  <p class="preco">R$ 99,99</p>
+					</div>
+					<p class="parcela">99x de R$99,99</p>
+		
+					</div>
+				</main>
+				</div>
+
+
+				<!-- newsletter -->
+
+				<div class="news">
+					<div class="news-container">
+
+					<div class="div-news">
+						<img src="img/novoImg.png"><label>
+							<strong>ENTREGA GRATUITA </strong>A PARTIR DE R$ 99</label>
+					</div>
+					<div class="div-news">
+						<img src="img/novoImg.png"><label><strong>PARCELAMENTO</strong> SEM JUROS</label>
+						</div>
+						<div class="div-news">
+							<img src="img/novoImg.png"><label>
+								<strong>CADASTRE-SE</strong> E GANHE DESCONTO</label>
+							</div>
+
+							
+						</div>	
+						<!-- newsletter linha  -->
+						<div class="news-hr"><hr></div>
+
+						<div class="news-texto">
+							<h2><strong>ASSINE NOSSA NEWSLETTER</strong></h2>
+							<br>
+							<p>Cadastre-se para receber nossas novidades e descontos exclusivos!<p>
+							<br><br>
+
+								
+							<div class="news-container">
+								<div class="div-news">
+									<input id="input-nome" placeholder="Nome"/> 
+									<input id="input-email" placeholder="Email"/> 
+								<button> ENVIAR</button>
+									</div>										
+									</div>
+					</div>
+						
+				</div>
+
+					<!-- foooter -->
+			
+					<div class="footer">
+						<div class="footer-container" id="f-col-1">
+							<img src="img/logo.png" >
+						<div class="face-logo"style=" margin-top:10px;">
+
+							<img src="img/Ellipse 3.png"> 
+							<i  class="fa fa-facebook"></i>  
+							<img src="img/Ellipse 3 copy 2.png">
+							<i class="fa fa-instagram"></i>
+							<img src="img/Ellipse 3 copy 2.png">
+							 <i class="fa fa-twitter"></i></div>
+						<br>
+						<div><p> © 2019  •  CNPJ 00.000.000/0000-00 </p>
+							<p class="f-endereco">Rua Tal de Tal, 123 - Cidade, Estado</p></div>
+						</div>
+
+						<div class="footer-container" id="f-col-2">
+
+							<div><h4>PET STORE</h4></div>
+
+							<div><p>Quem Somos</p> </div>
+							<div><p>Como Comprar</p> </div>
+							<div><p>Trocas e Devoluções</p> </div>
+							<div><p>Frete e Entregas</p> </div>
+							
+							</div>
+
+							<div class="footer-container" id="f-col-3">
+
+								<div><h4>CONTATO</h4></div>
+	
+								<div><p>(99) 99999-9999</p> </div>
+								<div><p>(99) 99999-9999</p> </div>
+								<div><p>petstore@petstore.com.br</p> </div>
+								
+								
+							</div>
+							
+								<div class="footer-container" id="f-col-4">
+
+									<div><h4>PAGAMENTO</h4></div>
+								
+									
+									<div><img src="img/visa.png">
+										<img src="img/mastercard.png">
+										<img src="img/pag1.png">
+										<img src="img/dinersclub.png">
+										
+									</div>
+										
+									<div>
+											<img src="img/hipercard.png">
+											<img src="img/Layer 17.png">
+											<img src="img/elo.png">
+											<img src="img/boleto.png"></div>
+									
+								</div>
+								
+
+						</div>
+		</div>					
+		<div class="footer-hr"><hr>	<br><br>
+				<div class="tecnologia"><p>TECNOLOGIA E DESENVOLVIMENTO: <img src="img/seri.e.png"> </p>    </div>
+	</div>
+
+	
+		
+	</div>
+
+
+<script>
+	var slideIndex = 1;
+	showSlides(slideIndex);
+	
+	function plusSlides(n) {
+	  showSlides(slideIndex += n);
+	}
+	
+	function currentSlide(n) {
+	  showSlides(slideIndex = n);
+	}
+	
+	function showSlides(n) {
+	  var i;
+	  var slides = document.getElementsByClassName("mySlides");
+	  var dots = document.getElementsByClassName("dot");
+	  if (n > slides.length) {slideIndex = 1}    
+	  if (n < 1) {slideIndex = slides.length}
+	  for (i = 0; i < slides.length; i++) {
+		  slides[i].style.display = "none";  
+	  }
+	  for (i = 0; i < dots.length; i++) {
+		  dots[i].className = dots[i].className.replace(" active", "");
+	  }
+	  slides[slideIndex-1].style.display = "block";  
+	  dots[slideIndex-1].className += " active";
+	}
+
+	var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+	</script>
+	</body>
+</html>
